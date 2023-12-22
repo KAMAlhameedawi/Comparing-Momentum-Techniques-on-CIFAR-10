@@ -5,7 +5,19 @@ This code aims to comprehend and evaluate the performance of three distinct mome
 
 ## Load the dataset for CIFAR-10.
 Preprocess the information, making sure to normalize it.
-![image](https://github.com/KAMAlhameedawi/Comparing-Momentum-Techniques-on-CIFAR-10/assets/149914341/b10bf1f4-fda3-4787-85b6-b2815948e54f)
+Here are the classes in the dataset, as well as 10 random images from each:
+airplane										
+automobile										
+bird										
+cat										
+deer										
+dog										
+frog										
+horse										
+ship										
+truck	
+![image](https://github.com/KAMAlhameedawi/Comparing-Momentum-Techniques-on-CIFAR-10/assets/149914341/0172881d-d5d6-47fe-a3fa-f21f4ff6ede8)
+
 
 
 ## Architecture Model:
@@ -63,5 +75,63 @@ Visualizations comparing the training accuracy of various optimizers are made wi
 Talk and Wrap-Up:
 
 There are sections in the code for talking about the observations, results, and wrapping up the experiments.
+
+## Result
+
+
+Epoch 1/10
+
+
+1563/1563 [==============================] - 62s 38ms/step - loss: 1.9435 - accuracy: 0.2999 - val_loss: 1.6813 - val_accuracy: 0.4056
+Epoch 2/10
+1563/1563 [==============================] - 58s 37ms/step - loss: 1.5497 - accuracy: 0.4464 - val_loss: 1.4328 - val_accuracy: 0.4817
+Epoch 3/10
+1563/1563 [==============================] - 57s 36ms/step - loss: 1.3803 - accuracy: 0.5097 - val_loss: 1.3733 - val_accuracy: 0.5157
+Epoch 4/10
+1563/1563 [==============================] - 80s 51ms/step - loss: 1.2757 - accuracy: 0.5518 - val_loss: 1.2141 - val_accuracy: 0.5721
+Epoch 5/10
+1563/1563 [==============================] - 123s 78ms/step - loss: 1.1937 - accuracy: 0.5803 - val_loss: 1.2164 - val_accuracy: 0.5705
+Epoch 6/10
+1563/1563 [==============================] - 128s 82ms/step - loss: 1.1291 - accuracy: 0.6042 - val_loss: 1.1310 - val_accuracy: 0.6020
+Epoch 7/10
+1563/1563 [==============================] - 129s 83ms/step - loss: 1.0737 - accuracy: 0.6239 - val_loss: 1.1510 - val_accuracy: 0.5945
+Epoch 8/10
+1563/1563 [==============================] - 139s 89ms/step - loss: 1.0245 - accuracy: 0.6429 - val_loss: 1.0557 - val_accuracy: 0.6374
+Epoch 9/10
+1563/1563 [==============================] - 108s 69ms/step - loss: 0.9819 - accuracy: 0.6605 - val_loss: 1.0818 - val_accuracy: 0.6258
+Epoch 10/10
+1563/1563 [==============================] - 123s 78ms/step - loss: 0.9436 - accuracy: 0.6717 - val_loss: 1.0663 - val_accuracy: 0.6249
+Epoch 1/10
+1563/1563 [==============================] - 139s 84ms/step - loss: 1.4697 - accuracy: 0.4728 - val_loss: 1.2052 - val_accuracy: 0.5776
+Epoch 2/10
+1563/1563 [==============================] - 126s 80ms/step - loss: 1.1249 - accuracy: 0.6054 - val_loss: 1.0574 - val_accuracy: 0.6319
+Epoch 3/10
+1563/1563 [==============================] - 129s 83ms/step - loss: 0.9999 - accuracy: 0.6517 - val_loss: 1.0056 - val_accuracy: 0.6494
+Epoch 4/10
+1563/1563 [==============================] - 106s 68ms/step - loss: 0.9161 - accuracy: 0.6813 - val_loss: 0.9554 - val_accuracy: 0.6611
+Epoch 5/10
+1563/1563 [==============================] - 123s 79ms/step - loss: 0.8522 - accuracy: 0.7039 - val_loss: 0.8999 - val_accuracy: 0.6916
+Epoch 6/10
+1563/1563 [==============================] - 136s 87ms/step - loss: 0.8006 - accuracy: 0.7215 - val_loss: 0.8895 - val_accuracy: 0.6962
+Epoch 7/10
+1563/1563 [==============================] - 139s 89ms/step - loss: 0.7561 - accuracy: 0.7370 - val_loss: 0.9399 - val_accuracy: 0.6842
+Epoch 8/10
+1563/1563 [==============================] - 150s 96ms/step - loss: 0.7138 - accuracy: 0.7523 - val_loss: 0.9352 - val_accuracy: 0.6877
+Epoch 9/10
+1563/1563 [==============================] - 209s 134ms/step - loss: 0.6733 - accuracy: 0.7634 - val_loss: 0.9154 - val_accuracy: 0.6969
+Epoch 10/10
+1563/1563 [==============================] - 171s 110ms/step - loss: 0.6419 - accuracy: 0.7764 - val_loss: 0.9023 - val_accuracy: 0.7086
+Epoch 1/10
+1563/1563 [==============================] - 343s 212ms/step - loss: 1.4787 - accuracy: 0.4704 - val_loss: 1.2360 - val_accuracy: 0.5628
+Epoch 2/10
+1563/1563 [==============================] - 166s 106ms/step - loss: 1.0904 - accuracy: 0.6223 - val_loss: 1.1242 - val_accuracy: 0.6194
+Epoch 3/10
+1563/1563 [==============================] - 124s 80ms/step - loss: 0.7299 - accuracy: 0.7489 - val_loss: 0.9838 - val_accuracy: 0.6747
+Epoch 7/10
+1563/1563 [==============================] - 117s 75ms/step - loss: 0.6674 - accuracy: 0.7689 - val_loss: 0.9064 - val_accuracy: 0.7067
+Epoch 8/10
+1563/1563 [==============================] - 117s 75ms/step - loss: 0.6180 - accuracy: 0.7864 - val_loss: 0.9761 - val_accuracy: 0.6937
+Epoch 9/10
+1563/1563 [==============================] - 189s 121ms/step - loss: 0.5191 - accuracy: 0.8224 - val_loss: 1.0454 - val_accuracy: 0.7020
 
 ![image](https://github.com/KAMAlhameedawi/Comparing-Momentum-Techniques-on-CIFAR-10/assets/149914341/49c434fc-af1c-4fed-b1f5-9d9d12a75ba1)
